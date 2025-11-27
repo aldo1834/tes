@@ -1,0 +1,54 @@
+<!-- index.html -->
+</div>
+</div>
+</section>
+
+
+<section id="skills" class="skills container">
+<h3>Keahlian</h3>
+<ul class="skills-list">
+<li>HTML &amp; CSS</li>
+<li>Java / PHP / MySQL</li>
+<li>Desain Grafis (Corel / Adobe)</li>
+<li>Pengajaran &amp; Kurikulum</li>
+</ul>
+</section>
+
+
+<section id="contact" class="contact container">
+<h3>Kontak</h3>
+<p>Ingin bekerja sama atau ngobrol? Kirim email ke <a href="mailto:aldobagus685@gmail.com">aldobagus685@gmail.com</a> atau isi formulir singkat di bawah.</p>
+
+
+<form class="contact-form" action="#" onsubmit="alert('Form demo — tidak terkirim'); return false;">
+<label>
+Nama
+<input type="text" name="name" required>
+</label>
+<label>
+Email
+<input type="email" name="email" required>
+</label>
+<label>
+Pesan
+<textarea name="message" rows="4" required></textarea>
+</label>
+<button class="btn" type="submit">Kirim</button>
+</form>
+</section>
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>© <span id="year"></span> Nama Anda — Semua hak cipta dilindungi.</p>
+</div>
+</footer>
+
+
+<script>
+// otomatis set tahun di footer
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
